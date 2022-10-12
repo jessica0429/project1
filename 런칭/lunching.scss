@@ -1,0 +1,400 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Montserrat', 'Noto Sans KR', sans-serif;
+
+
+    .header {
+        background-image: url('./img/img1.jpg');
+        height: 100vh;
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+        position: relative;
+
+        .notice {
+            display: flex;
+            align-items: flex-end;
+            position: absolute;
+            margin-top: 50px;
+            margin-left: 50px;
+            font-size: 24px;
+            font-weight: 700;
+        }
+
+        .event {
+            position: absolute;
+            bottom: 50px;
+            right: 50px;
+            font-size: 6vw;
+            font-weight: 700;
+        }
+
+    }
+
+    .content {
+        margin-top: 50px;
+        padding-left: 50px;
+        padding-right: 50px;
+
+        .sub_title {
+            font-size: 24px;
+            font-weight: 700;
+        }
+
+        .main_title {
+            margin-top: 10px;
+            font-size: 70px;
+            font-weight: 700;
+        }
+
+        .section {
+            font-size: 22px;
+            font-weight: 300;
+            margin-top: 20px;
+        }
+    }
+
+    .content2 {
+        margin-top: 80px;
+        display: flex;
+        position: relative;
+        gap: 40px;
+        // background-color: yellow;
+
+        img {
+            width: 70vw;
+            // height: 60vh;
+
+            // position: absolute;
+            left: 0px;
+        }
+
+        .sub_title1 {
+            font-size: 48px;
+            font-weight: 700;
+        }
+
+        .section1 {
+            font-size: 22px;
+            font-weight: 300;
+            margin-top: 20px;
+        }
+    }
+
+    .content3 {
+        display: flex;
+        position: relative;
+        gap: 40px;
+        margin-top: 200px;
+
+        img {
+            width: 60vw;
+            margin-top: 50px;
+        }
+
+        .wrap2 {
+            margin-top: 50px;
+            gap: 50px;
+            right: 5px;
+
+        }
+
+        .sub_title2 {
+            font-size: 48px;
+            font-weight: 700;
+        }
+
+        .section2 {
+            font-size: 22px;
+            font-weight: 300;
+            margin-top: 20px;
+        }
+
+        .photo img {
+            // top: -300px;
+            bottom: -300px;
+            position: absolute;
+            right: 400px;
+            width: 600px;
+
+        }
+    }
+
+    .event_banner {
+        margin-top: 450px;
+
+
+        .banner {
+            font-size: 48px;
+            font-weight: 700;
+
+        }
+
+    }
+
+    .event_main {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 50px;
+        gap: 30px;
+
+        img {
+            width: 500px;
+        }
+
+        .event_notice {
+            font-size: 22px;
+            font-weight: 300;
+            // position: absolute;
+            // left: 600px;
+
+        }
+    }
+
+    .event_section {
+        margin-top: 150px;
+        display: flex;
+        justify-content: space-between;
+        gap: 30px;
+
+        .event_item {
+
+            flex: 1;
+
+            img {
+                width: 100%;
+            }
+
+        }
+
+        .event_gift {
+            margin-top: 10px;
+            font-size: 20px;
+            font-weight: 300;
+        }
+
+    }
+
+    .brand {
+        font-size: 40px;
+        font-weight: 700;
+        margin-top: 150px;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        line-height: 58px;
+    }
+
+    .brand_section {
+        margin-top: 150px;
+
+        img {
+            width: 100%;
+        }
+
+        .section_item {
+            text-align: end;
+            margin-top: 10px;
+            font-size: 20px;
+            font-weight: 500;
+        }
+    }
+
+    .item_page {
+        margin-top: 50px;
+
+
+        .group {
+            display: flex;
+            justify-content: space-between;
+            gap: 100px;
+
+
+            .grouppage1 {
+
+
+                img {
+                    width: 700px;
+                    height: 1070px;
+                }
+
+                .page1 {
+                    font-size: 20px;
+                    font-weight: 500;
+                    margin-top: 10px;
+
+                }
+            }
+
+            .grouppage2 {
+                margin-top: 250px;
+                width: 40%;
+
+
+                img {
+                    width: 100%;
+                }
+
+                .page2 {
+                    font-size: 20px;
+                    font-weight: 500;
+                    margin-top: 10px;
+
+                }
+            }
+        }
+    }
+
+    .item_page2 {
+        margin-top: 100px;
+
+        .group2 {
+            display: flex;
+            justify-content: space-between;
+            gap: 100px;
+
+            .grouppage3 {
+
+                img {
+                    width: 700px;
+                    height: 900px;
+                }
+
+                .page3 {
+                    font-size: 20px;
+                    font-weight: 500;
+                    margin-top: 10px;
+                }
+            }
+        }
+
+        .grouppage4 {
+            margin-top: -100px;
+            width: 40%;
+
+            img {
+                width: 100%
+            }
+
+            .page4 {
+                font-size: 20px;
+                font-weight: 500;
+                margin-top: 10px;
+
+            }
+        }
+
+
+    }
+
+    .shopbutton {
+        display: flex;
+        justify-content: flex-end;
+        margin-top: -150px;
+
+
+
+        .button {
+            background-color: #eeeeee;
+            border: none;
+            color: #1e1e1e;
+            padding: 60px;
+            text-align: center;
+            text-decoration: none;
+            font-size: 48px;
+            font-weight: 700;
+            cursor: pointer;
+            border-radius: 50%;
+
+
+        }
+    }
+
+    .bestitems {
+        font-size: 20px;
+        font-weight: 700;
+        margin-top: 50px;
+        text-transform: uppercase;
+
+    }
+
+    .bestitems_category {
+        margin-top: 20px;
+        //    background-color: yellow;
+
+
+        .category {
+            display: flex;
+            justify-content: space-between;
+            gap: 20px;
+
+
+            img {
+                width: 100%;
+            }
+
+            .category1 {
+                .item1 {
+                    font-size: 20px;
+                    font-weight: 500;
+                    margin-top: 10px;
+                }
+
+            }
+
+            .category2 {
+                .item2 {
+                    font-size: 20px;
+                    font-weight: 500;
+                    margin-top: 10px;
+                }
+            }
+
+            .category3 {
+                .item3 {
+                    font-size: 20px;
+                    font-weight: 500;
+                    margin-top: 10px;
+                }
+            }
+
+            .category4 {
+                .item4 {
+                    font-size: 20px;
+                    font-weight: 500;
+                    margin-top: 10px;
+                }
+            }
+        }
+
+    }
+
+    .footer {
+        margin-top: 200px;
+        border-top: 1px;
+        border-top-style: solid;
+
+
+
+        .footer_section {
+            margin-top: 20px;
+            padding: 50px;
+            font-size: 18px;
+            font-weight: 300;
+        }
+    }
+
+    .footer_under {
+        margin-top: 100px;
+        margin-bottom: 50px;
+        display: flex;
+        justify-content: space-between;
+        padding-left: 50px;
+        padding-right: 50px;
+        font-size: 24px;
+        font-weight: 700;
+
+    }
+
+}
